@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class main {
+public class NotasdaProva {
 	
     public static void main(String[] args) throws IOException {
         
@@ -13,7 +13,7 @@ public class main {
         if(nota >=36 && nota  <=60){System.out.println("C");}
         if(nota >=61 && nota  <=85){System.out.println("B");}
         if(nota >=86 && nota  <=100){System.out.println("A");}
-        
+        leitor.close();
     }
-	
+
 }
